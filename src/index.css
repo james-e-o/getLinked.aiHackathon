@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: ClashDisplay;
+  src: url("./fonts/ClashDisplay_Complete/ClashDisplay_Complete/Fonts/Variable/ClashDisplay-Variable.ttf");
+}
+@font-face {
+  font-family: Montserrat;
+  src: url("./fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: Unica;
+  src: url("./fonts/Unica_One/UnicaOne-Regular.ttf");
+}
