@@ -14,3 +14,21 @@
   font-family: Unica;
   src: url("./fonts/Unica_One/UnicaOne-Regular.ttf");
 }
+
+body {
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+  width: 100vw;
+  /* text-decoration: none; */
+  /* list-style: none; */
+
+}
+div#root {
+  width: 100vw;
+  /* overflow-x: hidden; */
+}
+/* Title */
+
+/* getlinked Tech */
+
