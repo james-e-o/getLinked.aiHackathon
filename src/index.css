@@ -15,20 +15,41 @@
   src: url("./fonts/Unica_One/UnicaOne-Regular.ttf");
 }
 
+/* html {
+  font-size: calc(75%);
+} */
+/* html {
+  font-size: calc(100vw/1512 * 100%);
+} */
+
 body {
   padding: 0px;
   margin: 0px;
   overflow-x: hidden;
   width: 100vw;
-  /* text-decoration: none; */
-  /* list-style: none; */
+  text-decoration: none;
+  list-style: none; 
 
+}
+/* *{outline: 1px solid green;} */
+h1{
+  font-size: var(--uni-font);
 }
 div#root {
   width: 100vw;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 /* Title */
 
 /* getlinked Tech */
 
+@media screen and (min-width:630px) {
+  html {
+    font-size: 128%;
+  }
+}
+@media screen and (min-width:768px) {
+  html {
+    font-size: 100%;
+  }
+}

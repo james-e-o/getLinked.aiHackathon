@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/**/*.{html,js,jsx}"],
+  content: ["./src/**/*.{html,js,jsx}",".html"],
   // corePlugins:{
   //   preflight:false,
   // },
@@ -21,6 +21,8 @@ export default {
       },
       backgroundImage: {
         'purpleLens': "url('./src/assets/images/blurry.png')",
+        'mobilepurpleLens': "url('./src/assets/images/Purple-Lens-Flare-PNG-mobile.png')",
+
         
       }
 
