@@ -42,18 +42,18 @@ function App() {
               <div className='mt-10 flex md:justify-center justify-start flex-col w-screen md:items-start items-center leading-[1.2]'>
                 <p className='relative font-bold text-[2rem]' >
                   getlinked Tech
-                  <img className="absolute w-[1.125rem] h-[1.44rem] bottom-[1.86rem] right-[1.063rem]" src="src\assets\images\lightbulb.png"/>
-                  <img className="absolute  w-[0.625rem] h-[0.75rem]  bottom-[3.125rem] left-[2.875rem]" src="src\assets\images\white-mini-star.png" alt="white-mini-star"/>
-                  <img className="absolute w-[0.375rem] h-[0.5rem] bottom-[3.125rem] -right-[0.812rem]" src="src\assets\images\gray-mini-star.png" alt="grey-mini-star"/>
+                  <img className="absolute w-[1.125rem] h-[1.44rem] bottom-[1.86rem] right-[1.063rem]" src="/lightbulb.png"/>
+                  <img className="absolute  w-[0.625rem] h-[0.75rem]  bottom-[3.125rem] left-[2.875rem]" src="/white-mini-star.png" alt="white-mini-star"/>
+                  <img className="absolute w-[0.375rem] h-[0.5rem] bottom-[3.125rem] -right-[0.812rem]" src="/gray-mini-star.png" alt="grey-mini-star"/>
                   </p>
                     <p className='font-bold text-[2rem]' >
                       <span className="">Hackathon <span className="text-getlink3">1.0</span></span>
-                        <img className=" w-[2rem] inline-block" src="src\assets\images\chain.png" alt="chain.png" />
-                        <img className=" w-[1.37rem] inline-block" src="src\assets\images\blaze.png" alt="chain.png" />
+                        <img className=" w-[2rem] inline-block" src="/chain.png" alt="chain.png" />
+                        <img className=" w-[1.37rem] inline-block" src="/blaze.png" alt="chain.png" />
                     </p>
                     <p className="text-[0.813rem] font-Montserrat leading-[1.8] font-[300] mt-[1.7rem]">Participate in getlinked tech Hackathon <br /> 2023 stand a chance to win a Big prize</p>
                     <button className="rounded-md px-[2.88rem] mt-[1.8rem] pt-[0.876rem] pb-[0.937rem] text-[0.875rem] bg-gradient-to-r from-gradient1 to-gradient2 relative">Register 
-                    <img className='absolute w-[0.375rem] h-[0.5rem] top-[1.125rem] -right-[1.313rem]' src="src\assets\images\gray-mini-star.png" alt="gray-mini-star" /> </button>
+                    <img className='absolute w-[0.375rem] h-[0.5rem] top-[1.125rem] -right-[1.313rem]' src="/gray-mini-star.png" alt="gray-mini-star" /> </button>
                     <div className="leading-[1.33] font-Unica gap-[1.5rem] my-[1.43rem] flex justify-center">
                       <p className=" h-9 text-[3rem]">00<span className=" font-Montserrat text-sm">H</span></p>
                       <p className=" h-9 text-[3rem]">00<span className=" font-Montserrat text-sm">M</span></p>
@@ -61,8 +61,8 @@ function App() {
                     </div>
                 </div>
               <div className=' z-10 items-center flex justify-center relative box-border md:scale-100 md:mt-0 mt-6 pt-2 overflow-hidden-x w-full md:h-fit h-fit'>
-                <img className=" w-full -hue-rotate-180" src="src\assets\images\dazed.png" alt="dazed.png"/>
-                <img className="absolute w-full  " src="src\assets\images\waterbubble.png" alt="waterbubble.png"/>
+                <img className=" w-full -hue-rotate-180" src="/dazed.png" alt="dazed.png"/>
+                <img className="absolute w-full  " src="/waterbubble.png" alt="waterbubble.png"/>
               </div>
              
 
@@ -71,9 +71,9 @@ function App() {
 {/* 
 
             <div id='b1-left' className="relative hidden md:block">
-              <img className="absolute left-[530px] top-[224px]" src="src\assets\images\chain.png" alt="chain.png" width="62px" height="64px"/>
-              <img className="absolute left-[594px] top-[234px]" src="src\assets\images\blaze.png" alt="chain.png" width="40px" height="43px"/>
-              <img className="absolute left-[483px] top-[113px]" src="src\assets\images\lightbulb.png" alt="lightbulb.png" width="40px" height="43px"/>
+              <img className="absolute left-[530px] top-[224px]" src="/chain.png" alt="chain.png" width="62px" height="64px"/>
+              <img className="absolute left-[594px] top-[234px]" src="/blaze.png" alt="chain.png" width="40px" height="43px"/>
+              <img className="absolute left-[483px] top-[113px]" src="/lightbulb.png" alt="lightbulb.png" width="40px" height="43px"/>
               <p id='hackathon' className="text-[60px] text-start leading-[70px] p-0 inline-block font-[700] ml-[96px] mt-[154px]">
                 <span className='w-[597px]'>getlinked Tech</span><br />
                 <span className="ml-[3px] w-[569px]">Hackathon <span className="text-getlink3">1.0</span></span>
@@ -87,8 +87,8 @@ function App() {
               </div>
             </div>  */}
             {/* <p className='hidden md:block absolute text-[26px] font-Montserrat italic top-7 right-14 font-semibold'>Igniting a Revolution in HR Innovation</p> */}
-            {/* <img className="absolute mt-[6.2rem] right-0 -mr-6 w-[621px] h-[537px] " src="src\assets\images\dazed.png" alt="dazed.png"/>
-            <img className="absolute top-[86px] right-[38px] opacity-90 " src="src\assets\images\waterbubble.png" alt="waterbubble.png" width="500px" height="481px"/> */}
+            {/* <img className="absolute mt-[6.2rem] right-0 -mr-6 w-[621px] h-[537px] " src="/dazed.png" alt="dazed.png"/>
+            <img className="absolute top-[86px] right-[38px] opacity-90 " src="/waterbubble.png" alt="waterbubble.png" width="500px" height="481px"/> */}
             {/* <svg width="200" height="12" className='absolute right-[60px] top-14 ' viewBox="0 0 255 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 14.043C43.3333 5.7097 154.4 -5.95697 254 14.043" stroke-width="5" stroke="#FF26B9"/></svg> */}
 
           </div>
@@ -97,9 +97,9 @@ function App() {
             <div id='b2-left/top' className="w-fit relative">
               <figure className="w-[16.5rem] h-[16.06rem] flex items-center justify-center relative">
                   <span className="absolute font-Montserrat font-bold text-center text-base md:text-lg top-[7.662rem]">The Big <br /> Idea!</span>
-                  <img className="w-full h-full" src="src\assets\images\bigidea.png"  />
-                  <img className=" w-[0.69rem] top-[5.187rem] -left-[0.38rem] absolute h-[0.81rem]" src="src\assets\images\violetstar.png"  />
-                  <img className="w-[1.22rem] -bottom-[1.9rem] left-[7.38rem] absolute -rotate-90 h-[1.43rem]" src="src\assets\images\gradientsqiggle.png"  />
+                  <img className="w-full h-full" src="/bigidea.png"  />
+                  <img className=" w-[0.69rem] top-[5.187rem] -left-[0.38rem] absolute h-[0.81rem]" src="/violetstar.png"  />
+                  <img className="w-[1.22rem] -bottom-[1.9rem] left-[7.38rem] absolute -rotate-90 h-[1.43rem]" src="/gradientsqiggle.png"  />
               </figure>
             </div>
 
@@ -121,16 +121,16 @@ function App() {
                 <span className=''>Rules and
                 </span><br />
                 <span className="text-getlink3">Guidelines</span>
-                <img className="absolute w-[0.75rem] h-[0.88rem] top-[3.125rem] -right-[5.44rem]" src="src\assets\images\gray-mini-star.png" alt="grey-mini-star"/>
+                <img className="absolute w-[0.75rem] h-[0.88rem] top-[3.125rem] -right-[5.44rem]" src="/gray-mini-star.png" alt="grey-mini-star"/>
               </p>
               <p className="text-[0.82rem] px-10 text-center relative font-Montserrat font-light leading-[1.72rem] mt-3">{`Our tech hackathon is a melting pot of visionaries, and its purpose is as clear as day: to shape the future. Whether you're a coding genius, a  design maverick, or a concept wizard, you'll have the chance to transform  your ideas into reality. Solving real-world problems, pushing the boundaries of technology, and creating solutions that can change the world, that's what we're all about!`}
-              <img className="absolute w-[0.625rem] h-[0.75rem] -bottom-[0.94rem] left-[3.94rem]" src="src\assets\images\white-mini-star.png" alt="white-mini-star"/>
+              <img className="absolute w-[0.625rem] h-[0.75rem] -bottom-[0.94rem] left-[3.94rem]" src="/white-mini-star.png" alt="white-mini-star"/>
               </p>
             </div>
             <div id='b3-right' className="w-fit relative">
-              <img className="absolute  w-[0.625rem] h-[0.75rem] top-[11.56rem] -left-[0.31rem]" src="src\assets\images\white-mini-star.png" alt="white-mini-star"/>
+              <img className="absolute  w-[0.625rem] h-[0.75rem] top-[11.56rem] -left-[0.31rem]" src="/white-mini-star.png" alt="white-mini-star"/>
               <figure className="relative w-[19rem] sm:w-[20.38rem] h-[23.88rem]">
-                  <img className=" w-full h-full" src="src\assets\images\tablady.png"  />
+                  <img className=" w-full h-full" src="/tablady.png"  />
               </figure>
             </div>
 
@@ -139,10 +139,10 @@ function App() {
 
           <div id='block4' className="flex flex-col md:flex-row justify-start pb-[2.88rem] relative overflow-hidden items-center w-screen border-b border-b-[#ffffff2f] ">
             <div id='b4-left' className="w-fit relative">
-              <img className=" w-[0.81rem] top-[2.63rem] left-36 absolute h-[1.1rem]" src="src\assets\images\violetstar.png"  />
-              <img className="absolute w-[0.75rem] h-[0.88rem] bottom-[7.125rem] right-[8.6rem]" src="src\assets\images\gray-mini-star.png" alt="grey-mini-star"/>
+              <img className=" w-[0.81rem] top-[2.63rem] left-36 absolute h-[1.1rem]" src="/violetstar.png"  />
+              <img className="absolute w-[0.75rem] h-[0.88rem] bottom-[7.125rem] right-[8.6rem]" src="/gray-mini-star.png" alt="grey-mini-star"/>
               <figure className="mt-[4.625rem]  w-[20.7rem] h-[17.188rem] relative">
-                  <img className="w-full h-full" src="src\assets\images\statisticians.png"  />
+                  <img className="w-full h-full" src="/statisticians.png"  />
               </figure>
               
             </div>
@@ -173,7 +173,7 @@ function App() {
                       <span className=''> Judges will Ensure that the team adhered to the rules and guidelines of the hackathon, including deadlines, use of specific technologies or APIs, and any other competition-specific requirements.</span>  
                     </p>
                     <button className="rounded-md relative flex justify-center items-center mt-5 h-[1.96rem] w-24 text-xs bg-gradient-to-r from-gradient1 to-gradient2"><span>Read more</span>
-                    <img className="absolute w-[0.625rem] h-[0.75rem] bottom-[1.1rem] -right-[5.42rem]" src="src\assets\images\white-mini-star.png" alt="white-mini-star"/>
+                    <img className="absolute w-[0.625rem] h-[0.75rem] bottom-[1.1rem] -right-[5.42rem]" src="/white-mini-star.png" alt="white-mini-star"/>
                     </button>
                 </div>
             </div>
@@ -187,7 +187,7 @@ function App() {
                 <span className=''>Frequently asked 
                 </span><br />
                 <span className="text-getlink3">Questions</span>
-                <img className=" w-[0.81rem] bottom-[2.81rem] -left-[2.44rem] absolute h-[1.1rem]" src="src\assets\images\violetstar.png"  />
+                <img className=" w-[0.81rem] bottom-[2.81rem] -left-[2.44rem] absolute h-[1.1rem]" src="/violetstar.png"  />
               </p>
               <p className="text-xs font-Montserrat leading-[1.72rem] text-center font-[400] mt-2">{`We got answers to the questions that you might want to ask about getlinked Hackathon 1.0`}</p>
               <div className='text-xs font-Montserrat mt-11'>
@@ -219,15 +219,15 @@ function App() {
               </div>
             </div>
             <div id='b5-right' className="w-fit relative">
-              <img className=" w-4 top-[167px] right-[152px] absolute h-[18px]" src="src\assets\images\tablady.png"  />
-              <img className="w-[37px] left-[536px] absolute -rotate-90 h-[43px]" src="src\assets\images\gradientsqiggle.png"  />
+              <img className=" w-4 top-[167px] right-[152px] absolute h-[18px]" src="/tablady.png"  />
+              <img className="w-[37px] left-[536px] absolute -rotate-90 h-[43px]" src="/gradientsqiggle.png"  />
               <figure className="mt-[5.3rem] w-[20.44rem] aspect-square relative">
-                  <img className="w-full h-full" src="src\assets\images\cloudthinker.png"  />
+                  <img className="w-full h-full" src="/cloudthinker.png"  />
 
-                  <img className="absolute w-[1rem] h-5 -bottom-[0.31rem] right-[3.81rem]" src="src\assets\images\white-mini-star.png" alt="white-mini-star"/>
-                  <img className=" w-[0.63rem] bottom-full right-[10.19rem] absolute h-[0.63rem]" src="src\assets\images\violetstar.png"  />
-                  <img className=" w-[0.44rem] top-[6.25rem] left-[4.125rem] absolute h-[0.56rem]" src="src\assets\images\violetstar.png"  />
-                  <img className="absolute w-[0.63rem] h-[0.75rem] bottom-[9.87rem] left-[1.18rem]" src="src\assets\images\gray-mini-star.png" alt="grey-mini-star"/>
+                  <img className="absolute w-[1rem] h-5 -bottom-[0.31rem] right-[3.81rem]" src="/white-mini-star.png" alt="white-mini-star"/>
+                  <img className=" w-[0.63rem] bottom-full right-[10.19rem] absolute h-[0.63rem]" src="/violetstar.png"  />
+                  <img className=" w-[0.44rem] top-[6.25rem] left-[4.125rem] absolute h-[0.56rem]" src="/violetstar.png"  />
+                  <img className="absolute w-[0.63rem] h-[0.75rem] bottom-[9.87rem] left-[1.18rem]" src="/gray-mini-star.png" alt="grey-mini-star"/>
               </figure>
             </div> 
           </div> 
@@ -239,7 +239,7 @@ function App() {
                 <span className=''>Timeline</span>
               </p>
               <p className="text-xs font-Montserrat relative leading-[1.72rem] text-center font-[400] mt-2">Here is the breakdown of the time we <br />anticipate using for the upcoming event.
-              <img className=" w-[0.88rem] -bottom-6 left-[2.1rem] absolute h-[1rem]" src="src\assets\images\violetstar.png"  />
+              <img className=" w-[0.88rem] -bottom-6 left-[2.1rem] absolute h-[1rem]" src="/violetstar.png"  />
               </p>
               <div className='text-xs font-Montserrat mt-12'>
                 <div className='leading-[1.125rem] relative items-start gap-1 text-start flex flex-col mb-8 mx-2 border-l-2 pl-4 border-getlink3' >
@@ -259,7 +259,7 @@ function App() {
                   <p className='font-normal'>Interested Participants are no longer Allowed to register</p>
                   <p className=' text-getlink3 font-bold text-xs'>November 18, 2023</p>
                   <figure className='absolute flex items-center justify-center text-center w-[1.19rem] h-[1.19rem] p-2 border-[0.63em] border-getlink rounded-full bottom-[-0.35rem]  -left-[0.08rem] -translate-x-1/2 bg-getlink3 font-semibold text-[0.58rem]'><span>3</span></figure>
-                  <img className="absolute w-[0.625rem] h-3 bottom-0 left-[14.4rem]" src="src\assets\images\white-mini-star.png" alt="white-mini-star"/>
+                  <img className="absolute w-[0.625rem] h-3 bottom-0 left-[14.4rem]" src="/white-mini-star.png" alt="white-mini-star"/>
                 </div>
                 <div className='leading-[1.125rem] relative items-start gap-1 text-start flex flex-col mb-8 mx-2 border-l-2 pl-4 border-getlink3' >
                   <p className=' text-getlink3 font-bold text-xs'>Announcement of the accepted teams and ideas</p>
@@ -278,7 +278,7 @@ function App() {
                   <p className='font-normal'>Teams get the opportunity to pitch their projects to judges. The winner of the hackathon will also be announced on this day</p>
                   <p className=' text-getlink3 font-bold text-xs'>November 18, 2023</p>
                   <figure className='absolute flex items-center justify-center text-center w-[1.19rem] h-[1.19rem] p-2 border-[0.63em] border-getlink rounded-full bottom-[-0.35rem]  -left-[0.08rem] -translate-x-1/2 bg-getlink3 font-semibold text-[0.58rem]'><span>6</span></figure>
-                  <img className="absolute w-[0.63rem] h-3 -bottom-[2.125rem] -left-[1.36rem]" src="src\assets\images\gray-mini-star.png" alt="grey-mini-star"/>
+                  <img className="absolute w-[0.63rem] h-3 -bottom-[2.125rem] -left-[1.36rem]" src="/gray-mini-star.png" alt="grey-mini-star"/>
                 </div>
                 
                
@@ -294,8 +294,8 @@ function App() {
                 <span className=''>Prizes and</span><br />
                 <span className="text-getlink3">Rewards</span>
 
-                <img className=" w-[0.44rem] -top-[1.063rem] -left-[4.8rem] absolute h-[0.56rem]" src="src\assets\images\violetstar.png"/>
-                <img className=" w-[0.44rem] top-[1.19rem] -right-[1.45rem] absolute h-[0.56rem]" src="src\assets\images\violetstar.png"/>
+                <img className=" w-[0.44rem] -top-[1.063rem] -left-[4.8rem] absolute h-[0.56rem]" src="/violetstar.png"/>
+                <img className=" w-[0.44rem] top-[1.19rem] -right-[1.45rem] absolute h-[0.56rem]" src="/violetstar.png"/>
               </p>
               <p className="text-[0.82rem] px-10 text-center font-Montserrat font-light leading-[1.72rem] mt-3">
                 Highlight of the prizes or rewards for winners <br />and for participants.</p>
@@ -303,31 +303,31 @@ function App() {
             
             <div id='b7-left/top' className="w-fit relative">
               <figure className="w-[20.1rem] scale-125 -top-2 h-[17.63rem] flex items-center justify-center relative">
-                  <img className="w-full h-full" src="src\assets\images\dartncup.png"  />
+                  <img className="w-full h-full" src="/dartncup.png"  />
 
-                  <img className="absolute w-[0.625rem] h-3 bottom-0 left-[3.63rem]" src="src\assets\images\white-mini-star.png"/>
-                  <img className="absolute w-[0.625rem] h-3 -bottom-9 right-10" src="src\assets\images\white-mini-star.png"/>
+                  <img className="absolute w-[0.625rem] h-3 bottom-0 left-[3.63rem]" src="/white-mini-star.png"/>
+                  <img className="absolute w-[0.625rem] h-3 -bottom-9 right-10" src="/white-mini-star.png"/>
                
               </figure>
             </div>
             
             <div className='flex items-center font-Montserrat mt-[3.2rem] relative justify-center gap-4'>
                 <div className='w-[5.65rem] bg-[#D434FE1F] rounded-lg border border-getlink3 flex flex-col gap-1 items-center justify-center h-[7.8rem] relative'>
-                  <img className="absolute w-[4.75rem] h-[4.78rem] -translate-y-1/2 top-0 left-1/2 -translate-x-1/2" src="src\assets\images\silvermedal.png"/>
+                  <img className="absolute w-[4.75rem] h-[4.78rem] -translate-y-1/2 top-0 left-1/2 -translate-x-1/2" src="/silvermedal.png"/>
                   <p className='text-xs text-center relative top-3 font-semibold'>2nd <br />Runner</p>
                   <p className='text-sm text-getlink3 font-bold relative top-3'>N300,000</p>
                 </div>
                 <div className='w-[5.65rem] bg-[#903AFF1F] rounded-lg border border-getlink2 flex flex-col gap-1 items-center justify-center h-[9.21rem] relative'>
-                  <img className="absolute w-[5.65rem] scale-125 aspect-square -translate-y-1/2 top-0 left-1/2 -translate-x-1/2" src="src\assets\images\goldmedal.png"/>
+                  <img className="absolute w-[5.65rem] scale-125 aspect-square -translate-y-1/2 top-0 left-1/2 -translate-x-1/2" src="/goldmedal.png"/>
                   <p className='text-xs text-center relative top-4 font-semibold'>1st <br />Runner</p>
                   <p className='text-sm text-getlink2 font-bold relative top-4'>N400,000</p>
                 </div>
                 <div className='w-[5.65rem] bg-[#D434FE1F] rounded-lg border border-getlink3 flex flex-col gap-1 items-center justify-center h-[7.8rem] relative'>
-                  <img className="absolute w-[4.75rem] h-[4.78rem] -translate-y-1/2 top-0 left-1/2 -translate-x-1/2" src="src\assets\images\bronzemedal.png"/>
+                  <img className="absolute w-[4.75rem] h-[4.78rem] -translate-y-1/2 top-0 left-1/2 -translate-x-1/2" src="/bronzemedal.png"/>
                   <p className='text-xs text-center relative top-3 font-semibold'>3rd <br />Runner</p>
                   <p className='text-sm text-getlink3 font-bold relative top-3'>N150,000</p>
 
-                  <img className="absolute w-[0.63rem] h-3 -bottom-12 right-[1.19rem]" src="src\assets\images\gray-mini-star.png" alt="grey-mini-star"/>
+                  <img className="absolute w-[0.63rem] h-3 -bottom-12 right-[1.19rem]" src="/gray-mini-star.png" alt="grey-mini-star"/>
                 </div>
             </div>
            </div>
