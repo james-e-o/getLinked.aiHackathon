@@ -129,7 +129,7 @@ function App() {
             </div>
             <div id='b3-right' className="w-fit relative">
               <img className="absolute  w-[0.625rem] h-[0.75rem] top-[11.56rem] -left-[0.31rem]" src="src\assets\images\white-mini-star.png" alt="white-mini-star"/>
-              <figure className="relative w-[90vw] sm:w-[20.38rem] h-[23.88rem]">
+              <figure className="relative w-[19rem] sm:w-[20.38rem] h-[23.88rem]">
                   <img className=" w-full h-full" src="src\assets\images\tablady.png"  />
               </figure>
             </div>
@@ -137,11 +137,11 @@ function App() {
           </div>
 
 
-          <div id='block4' className="flex flex-col md:flex-row justify-start pb-[2.88rem] relative overflow-hidden items-center w-full border-b border-b-[#ffffff2f] ">
+          <div id='block4' className="flex flex-col md:flex-row justify-start pb-[2.88rem] relative overflow-hidden items-center w-screen border-b border-b-[#ffffff2f] ">
             <div id='b4-left' className="w-fit relative">
               <img className=" w-[0.81rem] top-[2.63rem] left-36 absolute h-[1.1rem]" src="src\assets\images\violetstar.png"  />
               <img className="absolute w-[0.75rem] h-[0.88rem] bottom-[7.125rem] right-[8.6rem]" src="src\assets\images\gray-mini-star.png" alt="grey-mini-star"/>
-              <figure className="mt-[4.625rem]  w-[20.75rem] h-[17.188rem] relative">
+              <figure className="mt-[4.625rem]  w-[20.7rem] h-[17.188rem] relative">
                   <img className="w-full h-full" src="src\assets\images\statisticians.png"  />
               </figure>
               
@@ -181,7 +181,7 @@ function App() {
           </div>
 
 
-          <div id='block5' className="flex flex-col md:flex-row justify-start pt-[3.125rem] px-10 pb-[2.88rem] relative overflow-hidden items-center w-full border-b border-b-[#ffffff2f] ">
+          <div id='block5' className="flex flex-col md:flex-row justify-start pt-[3.125rem] px-10 pb-[2.75rem] relative overflow-hidden items-center w-full border-b border-b-[#ffffff2f] ">
             <div id='b5-left' className=" flex flex-col items-center relative ">
               <p className="text-[1.25rem] relative text-center leading-[133%] p-0 inline-block font-[700]">
                 <span className=''>Frequently asked 
@@ -220,15 +220,138 @@ function App() {
             </div>
             <div id='b5-right' className="w-fit relative">
               <img className=" w-4 top-[167px] right-[152px] absolute h-[18px]" src="src\assets\images\tablady.png"  />
-              <img className="w-[37px] top-[367px] left-[536px] absolute -rotate-90 h-[43px]" src="src\assets\images\gradientsqiggle.png"  />
-              <figure className="mt-10 w-[367px] h-[358px] mb-[59px] relative">
+              <img className="w-[37px] left-[536px] absolute -rotate-90 h-[43px]" src="src\assets\images\gradientsqiggle.png"  />
+              <figure className="mt-[5.3rem] w-[20.44rem] aspect-square relative">
                   <img className="w-full h-full" src="src\assets\images\cloudthinker.png"  />
+
+                  <img className="absolute w-[1rem] h-5 -bottom-[0.31rem] right-[3.81rem]" src="src\assets\images\white-mini-star.png" alt="white-mini-star"/>
+                  <img className=" w-[0.63rem] bottom-full right-[10.19rem] absolute h-[0.63rem]" src="src\assets\images\violetstar.png"  />
+                  <img className=" w-[0.44rem] top-[6.25rem] left-[4.125rem] absolute h-[0.56rem]" src="src\assets\images\violetstar.png"  />
+                  <img className="absolute w-[0.63rem] h-[0.75rem] bottom-[9.87rem] left-[1.18rem]" src="src\assets\images\gray-mini-star.png" alt="grey-mini-star"/>
               </figure>
             </div> 
-
           </div> 
 
 
+          <div id='block6' className="flex flex-col md:flex-row gap-[3.83rem] px-10 pb-20 border-b border-gray-500 box-border justify-between items-center relative overflow-hidden w-full pt-8 border-b-[#ffffff2f] ">
+            <div id='b6-right/bottom' className="relative flex justify-start items-center flex-col  pt-20">
+              <p className="text-xl text-center leading-[1.33] p-0 inline-block font-bold">
+                <span className=''>Timeline</span>
+              </p>
+              <p className="text-xs font-Montserrat relative leading-[1.72rem] text-center font-[400] mt-2">Here is the breakdown of the time we <br />anticipate using for the upcoming event.
+              <img className=" w-[0.88rem] -bottom-6 left-[2.1rem] absolute h-[1rem]" src="src\assets\images\violetstar.png"  />
+              </p>
+              <div className='text-xs font-Montserrat mt-12'>
+                <div className='leading-[1.125rem] relative items-start gap-1 text-start flex flex-col mb-8 mx-2 border-l-2 pl-4 border-getlink3' >
+                  <p className=' text-getlink3 font-bold text-xs'>Hackathon Announcement</p>
+                  <p className='font-normal'>The getlinked tech hackathon 1.0 is formally announced to the general public and teams begin to get ready to register</p>
+                  <p className=' text-getlink3 font-bold text-xs'>November 18, 2023</p>
+                  <figure className='absolute flex items-center justify-center text-center w-[1.19rem] h-[1.19rem] p-2 border-[0.63em] border-getlink rounded-full bottom-[-0.35rem]  -left-[0.08rem] -translate-x-1/2 bg-getlink3 font-semibold text-[0.58rem]'><span>1</span></figure>
+                </div>
+                <div className='leading-[1.125rem] relative items-start gap-1 text-start flex flex-col mb-8 mx-2 border-l-2 pl-4 border-getlink3' >
+                  <p className=' text-getlink3 font-bold text-xs'>Teams Registration begins</p>
+                  <p className='font-normal'>Interested teams can now show their interest in the getlinked tech hackathon 1.0 2023 by proceeding to register</p>
+                  <p className=' text-getlink3 font-bold text-xs'>November 18, 2023</p>
+                  <figure className='absolute flex items-center justify-center text-center w-[1.19rem] h-[1.19rem] p-2 border-[0.63em] border-getlink rounded-full bottom-[-0.35rem]  -left-[0.08rem] -translate-x-1/2 bg-getlink3 font-semibold text-[0.58rem]'><span>2</span></figure>
+                </div>
+                <div className='leading-[1.125rem] relative items-start gap-1 text-start flex flex-col mb-8 mx-2 border-l-2 pl-4 border-getlink3' >
+                  <p className=' text-getlink3 font-bold text-xs'>Teams Registration ends</p>
+                  <p className='font-normal'>Interested Participants are no longer Allowed to register</p>
+                  <p className=' text-getlink3 font-bold text-xs'>November 18, 2023</p>
+                  <figure className='absolute flex items-center justify-center text-center w-[1.19rem] h-[1.19rem] p-2 border-[0.63em] border-getlink rounded-full bottom-[-0.35rem]  -left-[0.08rem] -translate-x-1/2 bg-getlink3 font-semibold text-[0.58rem]'><span>3</span></figure>
+                  <img className="absolute w-[0.625rem] h-3 bottom-0 left-[14.4rem]" src="src\assets\images\white-mini-star.png" alt="white-mini-star"/>
+                </div>
+                <div className='leading-[1.125rem] relative items-start gap-1 text-start flex flex-col mb-8 mx-2 border-l-2 pl-4 border-getlink3' >
+                  <p className=' text-getlink3 font-bold text-xs'>Announcement of the accepted teams and ideas</p>
+                  <p className='font-normal'>All teams whom idea has been accepted into getlinked tech hackathon 1.0 2023 are formally announced.</p>
+                  <p className=' text-getlink3 font-bold text-xs'>November 18, 2023</p>
+                  <figure className='absolute flex items-center justify-center text-center w-[1.19rem] h-[1.19rem] p-2 border-[0.63em] border-getlink rounded-full bottom-[-0.35rem]  -left-[0.08rem] -translate-x-1/2 bg-getlink3 font-semibold text-[0.58rem]'><span>4</span></figure>
+                </div>
+                <div className='leading-[1.125rem] relative items-start gap-1 text-start flex flex-col mb-8 mx-2 border-l-2 pl-4 border-getlink3' >
+                  <p className=' text-getlink3 font-bold text-xs'>Getlinked Hackathon 1.0 Offically Begins</p>
+                  <p className='font-normal'>Accepted teams can now proceed to build their ground breaking skill driven solutions.</p>
+                  <p className=' text-getlink3 font-bold text-xs'>November 18, 2023</p>
+                  <figure className='absolute flex items-center justify-center text-center w-[1.19rem] h-[1.19rem] p-2 border-[0.63em] border-getlink rounded-full bottom-[-0.35rem]  -left-[0.08rem] -translate-x-1/2 bg-getlink3 font-semibold text-[0.58rem]'><span>5</span></figure>
+                </div>
+                <div className='leading-[1.125rem] relative items-start gap-1 text-start flex flex-col mb-8 mx-2 border-l-2 pl-4 border-getlink3' >
+                  <p className=' text-getlink3 font-bold text-xs'>Demo Day</p>
+                  <p className='font-normal'>Teams get the opportunity to pitch their projects to judges. The winner of the hackathon will also be announced on this day</p>
+                  <p className=' text-getlink3 font-bold text-xs'>November 18, 2023</p>
+                  <figure className='absolute flex items-center justify-center text-center w-[1.19rem] h-[1.19rem] p-2 border-[0.63em] border-getlink rounded-full bottom-[-0.35rem]  -left-[0.08rem] -translate-x-1/2 bg-getlink3 font-semibold text-[0.58rem]'><span>6</span></figure>
+                  <img className="absolute w-[0.63rem] h-3 -bottom-[2.125rem] -left-[1.36rem]" src="src\assets\images\gray-mini-star.png" alt="grey-mini-star"/>
+                </div>
+                
+               
+                </div>
+            </div>
+
+          </div>
+
+          <div id='block7' className="flex flex-col md:flex-row gap-[3.83rem] pb-[5.7rem] border-b border-gray-500 justify-between items-center relative overflow-hidden w-full pt-[4.5rem] border-b-[#ffffff2f] ">
+            
+            <div id='b7-right/bottom' className="relative flex justify-start items-center flex-col">
+              <p className="text-xl relative text-center leading-6 p-0 inline-block font-bold">
+                <span className=''>Prizes and</span><br />
+                <span className="text-getlink3">Rewards</span>
+
+                <img className=" w-[0.44rem] -top-[1.063rem] -left-[4.8rem] absolute h-[0.56rem]" src="src\assets\images\violetstar.png"/>
+                <img className=" w-[0.44rem] top-[1.19rem] -right-[1.45rem] absolute h-[0.56rem]" src="src\assets\images\violetstar.png"/>
+              </p>
+              <p className="text-[0.82rem] px-10 text-center font-Montserrat font-light leading-[1.72rem] mt-3">
+                Highlight of the prizes or rewards for winners <br />and for participants.</p>
+            </div>
+            
+            <div id='b7-left/top' className="w-fit relative">
+              <figure className="w-[20.1rem] scale-125 -top-2 h-[17.63rem] flex items-center justify-center relative">
+                  <img className="w-full h-full" src="src\assets\images\dartncup.png"  />
+
+                  <img className="absolute w-[0.625rem] h-3 bottom-0 left-[3.63rem]" src="src\assets\images\white-mini-star.png"/>
+                  <img className="absolute w-[0.625rem] h-3 -bottom-9 right-10" src="src\assets\images\white-mini-star.png"/>
+               
+              </figure>
+            </div>
+            
+            <div className='flex items-center font-Montserrat mt-[3.2rem] relative justify-center gap-4'>
+                <div className='w-[5.65rem] bg-[#D434FE1F] rounded-lg border border-getlink3 flex flex-col gap-1 items-center justify-center h-[7.8rem] relative'>
+                  <img className="absolute w-[4.75rem] h-[4.78rem] -translate-y-1/2 top-0 left-1/2 -translate-x-1/2" src="src\assets\images\silvermedal.png"/>
+                  <p className='text-xs text-center relative top-3 font-semibold'>2nd <br />Runner</p>
+                  <p className='text-sm text-getlink3 font-bold relative top-3'>N300,000</p>
+                </div>
+                <div className='w-[5.65rem] bg-[#903AFF1F] rounded-lg border border-getlink2 flex flex-col gap-1 items-center justify-center h-[9.21rem] relative'>
+                  <img className="absolute w-[5.65rem] scale-125 aspect-square -translate-y-1/2 top-0 left-1/2 -translate-x-1/2" src="src\assets\images\goldmedal.png"/>
+                  <p className='text-xs text-center relative top-4 font-semibold'>1st <br />Runner</p>
+                  <p className='text-sm text-getlink2 font-bold relative top-4'>N400,000</p>
+                </div>
+                <div className='w-[5.65rem] bg-[#D434FE1F] rounded-lg border border-getlink3 flex flex-col gap-1 items-center justify-center h-[7.8rem] relative'>
+                  <img className="absolute w-[4.75rem] h-[4.78rem] -translate-y-1/2 top-0 left-1/2 -translate-x-1/2" src="src\assets\images\bronzemedal.png"/>
+                  <p className='text-xs text-center relative top-3 font-semibold'>3rd <br />Runner</p>
+                  <p className='text-sm text-getlink3 font-bold relative top-3'>N150,000</p>
+
+                  <img className="absolute w-[0.63rem] h-3 -bottom-12 right-[1.19rem]" src="src\assets\images\gray-mini-star.png" alt="grey-mini-star"/>
+                </div>
+            </div>
+           </div>
+
+           <div id='block8' className="flex flex-col md:flex-row gap-[3.83rem] pb-[5.7rem] border-b border-gray-500 justify-between items-center relative overflow-hidden w-full pt-[2.7rem] border-b-[#ffffff2f] ">
+              
+              <div id='b7-left/top' className="relative flex justify-start items-center flex-col">
+                  <p className="text-xl relative text-center leading-6 p-0 inline-block font-bold">
+                      <span className=''>Partners and Sponsors</span>
+                  </p>
+                  <p className="text-[0.82rem] px-10 text-center font-Montserrat font-light mt-2 leading-[1.67rem]">
+                  Getlinked Hackathon 1.0 is honored to have the <br /> following major companies as its partners and sponsors
+                  </p>
+              </div>
+              <div id='b7-left/top' className="relative ">
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+                  <p></p>
+              </div>
+             
+           </div>
         </main>
   
         
