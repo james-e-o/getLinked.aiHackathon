@@ -18,11 +18,17 @@ export default {
        'Clash': ['ClashDisplay', 'serif'],
        'Montserrat': ['Montserrat', 'sans'],
        'Unica': ['Unica', 'mono'],
+       'Voces': ['Voces', 'sans'],
+       'Typohoop': ['Typohoop', 'sans'],
+       'Madetommy': ['Madetommy', 'sans'],
+       'Inter': ['Inter', 'sans'],
       },
       backgroundImage: {
         'purpleLens': "url('./src/assets/images/blurry.png')",
-        'mobilepurpleLens': "url('./src/assets/images/Purple-Lens-Flare-PNG-mobile.png')",
-
+        'mobilepurpleLens': "url('/Purple-Lens-Flare-PNG-mobile.png')",
+        'leftMobilepurpleLens': "url('/left-mobileLens-flare.png')",
+        'rightMobilepurpleLens': "url('/right-mobileLens-flare.png')",
+        skillGradient : "linear-gradient(to left top,rgb(239, 245, 249),rgb(228, 232, 233),white)",
         
       }
 

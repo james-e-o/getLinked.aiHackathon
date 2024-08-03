@@ -7,6 +7,22 @@
   src: url("./fonts/ClashDisplay_Complete/ClashDisplay_Complete/Fonts/Variable/ClashDisplay-Variable.ttf");
 }
 @font-face {
+  font-family: Inter;
+  src: url("./fonts/Inter/Inter-Regular.ttf");
+}
+@font-face {
+  font-family: Typohoop;
+  src: url("./fonts/typo_hoop/TypoHoop_Regular.otf");
+}
+@font-face {
+  font-family: Voces;
+  src: url("./fonts/Voces/Voces-Regular.ttf");
+}
+@font-face {
+  font-family: Madetommy;
+  src: url("./fonts/made_tommy/MADE_TOMMY_Regular.otf");
+}
+@font-face {
   font-family: Montserrat;
   src: url("./fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
 }
@@ -42,7 +58,7 @@ div#root {
 /* Title */
 
 /* getlinked Tech */
-
+/* 
 @media screen and (min-width:630px) {
   html {
     font-size: 128%;
@@ -52,4 +68,4 @@ div#root {
   html {
     font-size: 100%;
   }
-}
+} */
