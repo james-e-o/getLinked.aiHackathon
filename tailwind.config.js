@@ -7,7 +7,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        'getlink':'#150E28',
+        'getlink':'#100B20',
+        'getlinklight':'#150E28',
+        'getlinklight2':'#110B20',
         'getlink2':'#903AFF',
         'getlink3':'#D434FE',
         'gradient1':'#FE34B9',
@@ -24,7 +26,7 @@ export default {
        'Inter': ['Inter', 'sans'],
       },
       backgroundImage: {
-        'purpleLens': "url('./src/assets/images/blurry.png')",
+        'purpleLens': "url('/blurry.png')",
         'mobilepurpleLens': "url('/Purple-Lens-Flare-PNG-mobile.png')",
         'leftMobilepurpleLens': "url('/left-mobileLens-flare.png')",
         'rightMobilepurpleLens': "url('/right-mobileLens-flare.png')",

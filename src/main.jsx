@@ -1,6 +1,7 @@
 import React, { createContext, lazy, Suspense } from 'react'
 import ReactDOM from 'react-dom/client'
 import {createBrowserRouter, RouterProvider  } from 'react-router-dom'
+import { registerAction } from './register/register.jsx'
 
 // page imports//
 const App = lazy(()=>import('./App.jsx'))
@@ -25,11 +26,13 @@ const router = createBrowserRouter([
   },
   {
     path:"/register", 
-    element:<Register/>
+    element:<Register/>,
+    action:registerAction
   },
 ])
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+const root = ReactDOM.createRoot(document.getElementById('root'))
+root.render(
   <React.StrictMode>
     <Suspense fallback={<Loading />} >
       <RouterProvider router={router}/>

@@ -48,9 +48,7 @@ body {
 
 }
 /* *{outline: 1px solid green;} */
-h1{
-  font-size: var(--uni-font);
-}
+
 div#root {
   width: 100vw;
   overflow-x: hidden;
@@ -58,14 +56,14 @@ div#root {
 /* Title */
 
 /* getlinked Tech */
-/* 
+
 @media screen and (min-width:630px) {
   html {
     font-size: 128%;
   }
-}
+} 
 @media screen and (min-width:768px) {
   html {
     font-size: 100%;
   }
-} */
+}
