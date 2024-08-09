@@ -15,10 +15,10 @@ function App() {
   return (
     
       <div className="font-Clash z-0 relative h-screen overflow-y-scroll overflow-x-clip bg-getlinklight w-screen">
-       <div className="hidden md:block absolute w-[34.6rem] h-[26.6rem] bg-mobilepurpleLens bg-origin-border bg-blend-hard-light z-[-1] bg-getlink bg-no-repeat top-0 bg-contain left-0 "></div>
-       <div className="hidden md:block rotateY  absolute w-[30.3rem] h-[31.7rem] bg-mobilepurpleLens bg-origin-border bg-blend-hard-light z-[-1] bg-getlink bg-no-repeat top-0 bg-contain right-0"></div>
-       <div className="absolute md:hidden bg-mobilepurpleLens w-[24.75rem] left-[-0.875rem] h-[27.63rem] bg-origin-border bg-getlink z-[-1] bg-blend-hard-light bg-no-repeat "></div>
-        <header className="flex w-full items-center sticky z-50 bg-getlink top-0 left-0 right-0 md:justify-between pt-3 md:pt-8 md:pb-4 md:h-fit h-[4.3rem] px-[3rem] md:gap-[10.95rem] md:px-14 justify-between border-b border-gray-800">        
+       <div className="hidden md:block absolute w-[34.6rem] h-[26.6rem] bg-mobilepurpleLens bg-origin-border bg-blend-hard-light z-[-1] bg-getlinklight bg-no-repeat top-0 bg-contain left-0 "></div>
+       <div className="hidden md:block rotateY  absolute w-[30.3rem] h-[31.7rem] bg-mobilepurpleLens bg-origin-border bg-blend-hard-light z-[-1] bg-getlinklight bg-no-repeat top-0 bg-contain right-0"></div>
+       <div className="absolute md:hidden bg-mobilepurpleLens w-[24.75rem] left-[-0.875rem] h-[27.63rem] bg-origin-border bg-getlinklight z-[-1] bg-blend-hard-light bg-no-repeat "></div>
+        <header className="flex w-full items-center sticky md:relative z-50 bg-getlinklight top-0 left-0 right-0 md:justify-around pt-3 md:pt-8 md:pb-4 md:h-fit h-[4.3rem] px-[3rem] md:gap-[10.95rem] md:px-11 justify-between border-b border-gray-800">        
           <h1 className="text-white text-[0.93rem] md:text-[1.14rem] z-10 font-bold ">get<span className=" text-getlink3">linked</span></h1>
           <div className='md:hidden text-white z-10'>
               <p onClick={()=>setDropState(!dropState)} className='p-1 w-fit h-fit'>{menu}</p>
@@ -36,22 +36,22 @@ function App() {
               </div>
           </div>
           <nav className="hidden md:flex justify-center gap-[3.5rem] text-white font-Montserrat h-fit w-fit">
-            <ul className="inline-flex justify-center gap-7 w-fit font-normal text-[0.51rem] list-none items-center">
+            <ul className="inline-flex justify-center gap-7 w-fit font-normal text-[0.53rem] list-none items-center">
               <Link to={'/#'}><li className="">Timeline</li></Link>
               <Link to={'/#'}><li className="">Overview</li></Link>
               <Link to={'/#'}><li className="">FAQs</li></Link>
               <Link to={'/contact'}><li className="">Contact</li></Link>
             </ul>
-            <button className="rounded px-6 py-[0.53rem] flex items-center justify-center box-border bg-gradient-to-r from-gradient1 h-fit text-[0.51rem] to-gradient2"><span>Register</span></button>
+            <button className="rounded px-6 py-[0.53rem] flex items-center justify-center box-border bg-gradient-to-r from-gradient1 h-fit text-[0.53rem] to-gradient2"><span>Register</span></button>
           </nav>
         </header>
         <main className="text-white box-border overflow-x-hidden -z-[2] w-screen ">
-          <div id='block1' className="flex items-center justify-start md:justify-between md:gap-[17.4rem] relative md:flex-row md:items-start overflow-hidden w-full flex-col border-b border-b-[#ffffff2f] ">
+          <div id='block1' className="flex items-center justify-start md:justify-around md:gap-[20.4rem] relative md:flex-row md:items-start overflow-hidden w-full flex-col border-b border-b-[#ffffff2f] ">
               <div className='text-center md:hidden relative text-sm font-Montserrat italic mt-[1.94rem] font-semibold'>
                 <p className='text-center w-full '>Igniting a Revolution in HR Innovation</p>
                 <p className='text-end flex justify-end w-full pr-4'>{pinkbowsm}</p>
               </div>
-              <div className='mt-10 flex md:justify-center md:px-14 md:mt-[6.5rem] md:w-fit justify-start flex-col w-screen md:items-start items-center leading-[1.2]'>
+              <div className='mt-10 flex md:justify-center md:pl-11 md:mt-[6.5rem] md:w-fit justify-start flex-col w-screen md:items-start items-center leading-[1.2]'>
                 <p className='relative font-bold text-[2rem] md:text-4xl' >
                   getlinked Tech
                   <img className="absolute w-[1.125rem] h-[1.44rem] bottom-[1.86rem] right-[1.063rem]" src="/lightbulb.png"/>
@@ -77,7 +77,7 @@ function App() {
                     <p className='text-center w-full '>Igniting a Revolution in HR Innovation</p>
                     <p className='text-end flex justify-end w-full pr-1'>{pinkbowsm}</p>
                   </div>
-                  <div className='md:absolute md:top-0 md:-right-4 md:w-fit md:mt-16 z-10 items-center flex justify-center relative box-border mt-6 pt-2 overflow-hidden-x w-full md:h-fit h-fit'>
+                  <div className='md:absolute md:top-0 md:-right-3 md:w-fit md:mt-16 z-10 items-center flex justify-center relative box-border mt-6 pt-2 overflow-hidden-x w-full md:h-fit h-fit'>
                   
                     <img className=" w-full md:w-[25rem]  -hue-rotate-180" src="/dazed.png" alt="dazed.png"/>
                     <img className="absolute w-full  " src="/waterbubble.png" alt="waterbubble.png"/>
@@ -359,7 +359,7 @@ function App() {
           </div>
 
 
-          <div id='block7' className="flex flex-col md:flex-row gap-[3.83rem] pb-[5.7rem] border-b bg-getlinklight2 border-gray-500 justify-between items-center relative overflow-hidden w-full pt-[4.5rem] border-b-[#ffffff2f] ">
+          <div id='block7' className="flex flex-col md:flex-row md:gap-10 md:justify-around md:px-20 md:pt-9 md:pb-14 gap-[3.83rem] pb-[5.7rem] border-b bg-getlinklight2 border-gray-500 justify-between items-center relative overflow-hidden w-full pt-[4.5rem] border-b-[#ffffff2f] ">
             
             <div className="absolute md:hidden bg-rightMobilepurpleLens w-[12.8rem] bottom-[1.4rem] -right-4 h-[23.33rem] bg-origin-border bg-getlink z-[-1] bg-blend-hard-light bg-no-repeat "></div>
             <div className="absolute md:hidden bg-mobilepurpleLens top-[7rem] -translate-y-14 w-[24.75rem] left-[-0.875rem] h-[27.63rem] bg-origin-border bg-getlink z-[-2] bg-blend-hard-light bg-no-repeat "></div>
@@ -378,38 +378,39 @@ function App() {
             </div>
             
             <div id='b7-left/top' className="w-fit relative">
-              <figure className="md:w-60  w-[20.1rem] scale-125 -top-2 h-[17.63rem] flex items-center justify-center relative">
-                  <img className="w-full h-full" src="/dartncup.png"  />
+              <figure className="md:w-[12.4rem] md:h-[10.9rem] w-[20.1rem] scale-125 -top-2 h-[17.63rem] flex items-center justify-center relative">
+                  <img className="w-full h-full md:hidden" src="/dartncup.png"  />
+                  <img className="w-full h-full md:inline-block hidden" src="/dartncup-deskop.png"  />
 
                   <img className="absolute w-[0.625rem] h-3 bottom-0 left-[3.63rem]" src="/white-mini-star.png"/>
                   <img className="absolute w-[0.625rem] h-3 -bottom-9 right-10" src="/white-mini-star.png"/>
                
               </figure>
             </div>
-            <div className=''>
+            <div className='md:flex md:flex-col md:items-center md:gap-10'>
               <div id='b7-right/bottom' className="relative hidden md:flex justify-start items-center flex-col">
-                <p className="text-xl relative text-center leading-6 p-0 inline-block font-bold">
+                <p className="text-base relative text-start leading-6 p-0 inline-block font-bold">
                   <span className=''>Prizes and</span><br />
                   <span className="text-getlink3">Rewards</span>
 
                   <img className=" w-[0.44rem] -top-[1.063rem] -left-[4.8rem] absolute h-[0.56rem]" src="/violetstar.png"/>
                   <img className=" w-[0.44rem] top-[1.19rem] -right-[1.45rem] absolute h-[0.56rem]" src="/violetstar.png"/>
                 </p>
-                <p className="text-[0.82rem] px-10 text-center font-Montserrat font-light leading-[1.72rem] mt-3">
+                <p className="text-[0.52rem] px-0 text-start font-Montserrat font-light leading-[1.72rem] mt-2">
                   Highlight of the prizes or rewards for winners and for participants.</p>
               </div>
-              <div className='flex items-center font-Montserrat mt-[3.2rem] relative justify-center gap-4'>
-                  <div className='w-[5.65rem] bg-[#D434FE1F] rounded-lg border border-getlink3 flex flex-col gap-1 items-center justify-center h-[7.8rem] relative'>
+              <div className='flex items-center md:w-fit font-Montserrat mt-[3.2rem] relative justify-center gap-4'>
+                  <div className='w-[5.65rem] bg-[#D434FE1F] rounded-md border border-getlink3 flex flex-col gap-1 items-center justify-center h-[7.8rem] relative'>
                     <img className="absolute w-[4.75rem] h-[4.78rem] -translate-y-1/2 top-0 left-1/2 -translate-x-1/2" src="/silvermedal.png"/>
                     <p className='text-xs text-center relative top-3 font-semibold'>2nd <br />Runner</p>
                     <p className='text-sm text-getlink3 font-bold relative top-3'>N300,000</p>
                   </div>
-                  <div className='w-[5.65rem] bg-[#903AFF1F] rounded-lg border border-getlink2 flex flex-col gap-1 items-center justify-center h-[9.21rem] relative'>
+                  <div className='w-[5.65rem] bg-[#903AFF1F] rounded-md border border-getlink2 flex flex-col gap-1 items-center justify-center h-[9.21rem] relative'>
                     <img className="absolute w-[5.65rem] scale-[1.4] aspect-square -translate-y-1/2 top-0 left-1/2 -translate-x-1/2" src="/goldmedal.png"/>
                     <p className='text-xs text-center relative top-6 font-semibold'>1st <br />Runner</p>
                     <p className='text-sm text-getlink2 font-bold relative top-6'>N400,000</p>
                   </div>
-                  <div className='w-[5.65rem] bg-[#D434FE1F] rounded-lg border border-getlink3 flex flex-col gap-1 items-center justify-center h-[7.8rem] relative'>
+                  <div className='w-[5.65rem] bg-[#D434FE1F] rounded-md border border-getlink3 flex flex-col gap-1 items-center justify-center h-[7.8rem] relative'>
                     <img className="absolute w-[4.75rem] h-[4.78rem] -translate-y-1/2 top-0 left-1/2 -translate-x-1/2" src="/bronzemedal.png"/>
                     <p className='text-xs text-center relative top-3 font-semibold'>3rd <br />Runner</p>
                     <p className='text-sm text-getlink3 font-bold relative top-3'>N150,000</p>
@@ -421,41 +422,41 @@ function App() {
            </div>
 
 
-           <div id='block8' className="flex flex-col before:w-full before:absolute before:bg-getlinklight before:inset-0 before:-z-10 md:flex-row gap-[3.83rem] pb-[5.7rem] border-b border-gray-500 justify-between items-center relative overflow-hidden w-full pt-[2.7rem] border-b-[#ffffff2f] ">
+           <div id='block8' className="flex flex-col before:w-full before:absolute before:bg-getlinklight before:inset-0 before:-z-10 gap-[3.83rem] pb-[5.7rem] border-b border-gray-500 justify-between items-center relative overflow-hidden w-full pt-[2.7rem] border-b-[#ffffff2f] ">
            
-           <div className="absolute md:hidden rotateY bg-mobilepurpleLens bg-[60%_50%] w-[14.5rem] -bottom-[10rem] translate-y-1/3 -right-4 h-[23.33rem] bg-origin-border bg-getlinklight z-[-1] bg-blend-hard-light bg-no-repeat "></div>
-           <div className="absolute md:hidden bg-mobilepurpleLens -top-[6rem] w-[24.75rem] left-[-4rem] h-[27.63rem] bg-origin-border bg-getlinklight z-[-2] bg-blend-hard-light bg-no-repeat "></div>  
+              <div className="absolute md:hidden rotateY bg-mobilepurpleLens bg-[60%_50%] w-[14.5rem] -bottom-[10rem] translate-y-1/3 -right-4 h-[23.33rem] bg-origin-border bg-getlinklight z-[-1] bg-blend-hard-light bg-no-repeat "></div>
+              <div className="absolute md:hidden bg-mobilepurpleLens -top-[6rem] w-[24.75rem] left-[-4rem] h-[27.63rem] bg-origin-border bg-getlinklight z-[-2] bg-blend-hard-light bg-no-repeat "></div>  
              
               <div id='b7-left/top' className="relative flex justify-start items-center flex-col">
-                  <p className="text-xl relative text-center leading-6 p-0 inline-block font-bold">
+                  <p className="md:text-base text-xl relative text-center leading-6 p-0 inline-block font-bold">
                       <span className=''>Partners and Sponsors</span>
                   </p>
-                  <p className="text-[0.82rem] px-10 text-center font-Montserrat font-light mt-2 leading-[1.67rem]">
-                  Getlinked Hackathon 1.0 is honored to have the following major companies as its partners and sponsors
+                  <p className="md:text-[0.53rem] text-[0.82rem] px-10 text-center font-Montserrat font-light mt-2 leading-[1.67rem]">
+                  Getlinked Hackathon 1.0 is honored to have the following major <br className='hidden md:block' /> companies as its partners and sponsors
                   </p>
               </div>
-              <div className=' py-5 px-7 border relative border-getlink3 rounded-lg'>
+              <div className='md:px-12 md:py-16 md:rounded-md py-5 px-7 border relative border-getlink3 rounded-lg'>
                   <table id='right/bottom' className="relative">
                       <tr>
-                        <td className=' min-w-[4.65rem] border-getlink3 p-2 border-b-2 '>
-                            <img src="/liberassured.png" className='align-middle mx-auto w-8 h-8' />
+                        <td className='md:min-w-[8.3rem] md:aspect-square min-w-[4.65rem] border-getlink3 p-2 border-b-2 '>
+                            <img src="/liberassured.png" className='align-middle mx-auto md:w-16 md:py-1 md:h-14 w-8 h-8' />
                         </td>
-                        <td className=' min-w-[4.65rem] border-getlink3 border-l-2 p-2 border-b-2'>
-                            <img src="/liberpay.png" className='align-middle mx-auto w-[3.54rem] h-[0.65rem]' />
+                        <td className='md:min-w-[8.3rem] md:aspect-square min-w-[4.65rem] border-getlink3 border-l-2 p-2 border-b-2'>
+                            <img src="/liberpay.png" className='align-middle mx-auto md:w-28 md:py-1 md:h-6 w-[3.54rem] h-[0.65rem]' />
                         </td>
-                        <td className=' min-w-[4.65rem] border-getlink3 border-l-2 p-2 border-b-2'>
-                            <img src="/winwise.png" className='align-middle mx-auto w-[2.13rem] h-7' />
+                        <td className='md:min-w-[8.3rem] md:aspect-square min-w-[4.65rem] border-getlink3 border-l-2 p-2 border-b-2'>
+                            <img src="/winwise.png" className='align-middle mx-auto md:w-16 md:py-1 md:h-14 w-[2.13rem] h-7' />
                         </td>
                       </tr>
                       <tr>
-                        <td className=' min-w-[4.65rem] p-2'>
-                            <img src="/whisperms.png" className='w-[2.44rem] mx-auto align-middle h-[1.81] ' />
+                        <td className='md:min-w-[8.3rem] md:aspect-square min-w-[4.65rem] p-2'>
+                            <img src="/whisperms.png" className='md:w-16 md:h-14 md:py-1 w-[2.44rem] mx-auto align-middle h-[1.81] ' />
                         </td>
-                        <td className=' min-w-[4.65rem] text-center border-l-2 border-getlink3 p-2'>
-                            <span className='font-Typohoop text-xs align-middle  text-center'>Pay<span className='text-blue-400'>box</span></span>
+                        <td className='md:min-w-[8.3rem] md:aspect-square min-w-[4.65rem] text-center border-l-2 border-getlink3 p-2'>
+                            <span className='font-Typohoop md:text-xl text-xs align-middle  text-center'>Pay<span className='text-blue-400'>box</span></span>
                         </td>
-                        <td className=' min-w-[4.65rem] text-center border-l-2 border-getlink3 p-2'>
-                            <span className='font-Voces text-xs align-middle text-center relative'>Vuzual <span className='text-red-500 relative'>Plus<span className='text-[0.27rem] absolute text-white -bottom-2 -left-2'>design studios</span></span></span>
+                        <td className='md:min-w-[8.3rem] md:aspect-square min-w-[4.65rem] text-center border-l-2 border-getlink3 p-2'>
+                            <span className='font-Voces md:text-xl text-xs align-middle text-center relative'>Vuzual <span className='text-red-500'>Plus<span className='md:text-[0.65rem] md:-bottom-4 md:-right-7 text-[0.27rem] absolute text-white -bottom-2 -left-2'>design studios</span></span></span>
                             
                         </td>
                       </tr>
@@ -466,46 +467,46 @@ function App() {
             </div>
 
             
-            <div id='block9' className="flex backdrop-opacity-50 bg-getlinklight flex-col md:flex-row gap-[3.83rem] pb-[5.7rem] border-b border-gray-500 justify-between items-center relative overflow-hidden w-full pt-[4.44rem] border-b-[#ffffff2f] ">
-            <div className="absolute md:hidden bg-leftMobilepurpleLens w-[17.85rem] top-[35rem] left-0 h-[22.93rem] bg-origin-border bg-getlinklight z-[-1] bg-blend-hard-light bg-no-repeat "></div>
-            <div className="absolute md:hidden rotateY bg-mobilepurpleLens bg-[60%_50%] w-[14.5rem] -top-[13rem] -translate-y-2/3 -right-4 h-[23.33rem] bg-origin-border bg-getlinklight z-[-1] bg-blend-hard-light bg-no-repeat "></div>
+            <div id='block9' className="flex backdrop-opacity-50 bg-getlinklight flex-col md:flex-row md:mt-0 md:gap-12  md:justify-around md:pl-9 md:pr-8 md:pb-16 md:pt-11 md:items-start gap-[3.83rem] pb-[5.7rem] border-b border-gray-500 justify-between items-center relative overflow-hidden w-full pt-[4.44rem] border-b-[#ffffff2f] ">
+                <div className="absolute md:hidden bg-leftMobilepurpleLens w-[17.85rem] top-[35rem] left-0 h-[22.93rem] bg-origin-border bg-getlinklight z-[-1] bg-blend-hard-light bg-no-repeat "></div>
+                <div className="absolute md:hidden rotateY bg-mobilepurpleLens bg-[60%_50%] w-[14.5rem] -top-[13rem] -translate-y-2/3 -right-4 h-[23.33rem] bg-origin-border bg-getlinklight z-[-1] bg-blend-hard-light bg-no-repeat "></div>
             
             
-              <div id='b9-left/top' className="relative flex justify-start items-center flex-col">
-                  <p className="text-xl relative text-center leading-7 p-0 inline-block font-bold">
-                      <span className=''>Privacy Policy and <br />
+                <div id='b9-left/top' className="relative flex md:items-start justify-start items-center flex-col">
+                    <p className="md:text-base md:max-w-[45vw] md:text-start md:leading-6 text-xl relative text-center leading-7 p-0 inline-block font-bold">
+                        <span className=''>Privacy Policy and <br />
                       <span className="text-getlink3">Terms</span></span>
                       <img className=" w-[0.5rem] -top-11 -right-1 absolute h-[0.5rem]" src="/gray-mini-star.png"  />
                   </p>
-                  <p className="text-[0.82rem] px-10 text-center font-Montserrat font-normal mt-2 leading-[1.67rem]">
+                  <p className="md:text-[0.5rem] md:max-w-[45vw] md:text-start md:px-0 md:mt-1 text-[0.82rem] px-10 text-center font-Montserrat font-normal mt-2 leading-[1.67rem]">
                   Last updated on September 12, 2023
                   </p>
-                  <p className="text-[0.82rem] px-12 text-center relative font-Montserrat font-normal mt-7 leading-[1.67rem]">
+                  <p className="md:text-[0.5rem] md:max-w-[45vw] md:text-start md:px-0 md:mt-3 text-[0.82rem] md:leading-5 px-12 text-center relative font-Montserrat font-normal mt-7 leading-[1.67rem]">
                   Below are our privacy & policy, which outline a lot of goodies. it’s our aim to always take of our participant.
                   <img className=" w-[1.065rem] -bottom-[0.48rem] right-7 absolute h-[1.25rem]" src="/slatestar.png"  />
                   </p>
 
-                  <div className='mt-[1.875rem] justify-start flex flex-col items-center py-11 px-4 bg-[#D9D9D908] mx-11 min-w-[18.44] relative rounded-lg border border-getlink3'>
+                  <div className='mt-[1.875rem] md:max-w-[45vw] justify-start flex flex-col items-center py-11 px-5 bg-[#D9D9D908] md:mx-0 mx-11 md:py-6 min-w-[18.44] relative rounded-lg border border-getlink3'>
                       <img className=" w-[1.065rem] bottom-[10.315rem] -left-6 absolute h-[1.25rem]" src="/slatestar.png"  />
 
-                      <p className='text-xs text-center font-Montserrat font-normal leading-[1.67rem]'>At getlinked tech Hackathon 1.0, we value your privacy and are committed to protecting your personal information.This Privacy Policy outlines how we collect,use, disclose, and safeguard your data when you participate in our tech hackathon event. By participating in our event, you consent to the practices described in this policy.</p>
+                      <p className='md:text-[0.5rem] md:text-start md:leading-5 text-xs text-center font-Montserrat font-normal leading-[1.63rem]'>At getlinked tech Hackathon 1.0, we value your privacy and are committed to protecting your personal information.This Privacy Policy outlines how we collect,use, disclose, and safeguard your data when you participate in our tech hackathon event. By participating in our event, you consent to the practices described in this policy.</p>
 
-                      <p className='text-getlink3 text-start w-full font-Montserrat font-semibold mt-5 ml-1 text-[0.81rem]'>Licensing Policy</p>
+                      <p className=' md:text-[0.63] text-getlink3 text-start w-full font-Montserrat font-semibold mt-5 ml-1 text-[0.81rem]'>Licensing Policy</p>
                       <p className='mt-2 ml-1 text-start w-full font-Montserrat font-semibold text-xs'>Here are terms of our Standard License:</p>
                       <div className='flex gap-[1.33rem] mt-6'>
-                        <figure className='rounded-full bg-[#2DE100] h-[1.1rem] p-[0.13rem] box-border fill-white flex justify-center items-center w-[1.1rem]'><svg className='relative top-[0.05rem]' width="8rem" height="4rem" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 3L3 5.5L9.5 1" stroke="white" strokeWidth="2"/></svg></figure>
-                        <p className='text-xs text-start font-Montserrat font-normal leading-[1.32rem]'>The Standard License grants you a non-exclusive right to navigate and register for our event</p>
+                        <figure className='rounded-full relative md:top-2 top-1 bg-[#2DE100] h-[1.1rem] p-[0.13rem] box-border fill-white flex justify-center items-center w-[1.1rem]'><svg className='relative top-[0.05rem]' width="8rem" height="4rem" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 3L3 5.5L9.5 1" stroke="white" strokeWidth="2"/></svg></figure>
+                        <p className='md:text-[0.53rem] text-xs text-start font-Montserrat font-normal leading-[1.32rem]'>The Standard License grants you a non-exclusive right to navigate and register for our event</p>
                       </div>
                       <div className='flex gap-[1.33rem] mt-6'>
-                        <figure className='rounded-full bg-[#2DE100] h-[1.1rem] p-[0.13rem] box-border fill-white flex justify-center items-center w-[1.1rem]'><svg className='relative top-[0.05rem]' width="8rem" height="4rem" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 3L3 5.5L9.5 1" stroke="white" strokeWidth="2"/></svg></figure>
-                        <p className='text-xs text-start font-Montserrat font-normal leading-[1.32rem]'>You are licensed to use the item available at any free source sites, for your project developement</p>
+                        <figure className='rounded-full relative md:top-2 top-1 bg-[#2DE100] h-[1.1rem] p-[0.13rem] box-border fill-white flex justify-center items-center w-[1.1rem]'><svg className='relative top-[0.05rem]' width="8rem" height="4rem" viewBox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 3L3 5.5L9.5 1" stroke="white" strokeWidth="2"/></svg></figure>
+                        <p className='md:text-[0.53rem] text-xs text-start font-Montserrat font-normal leading-[1.32rem]'>You are licensed to use the item available at any free source sites, for your project developement</p>
                       </div>
                       <button className="rounded-sm relative flex justify-center items-center mt-7 text-xs px-4 py-2 bg-gradient-to-r from-gradient1 to-gradient2"><span>Read more</span>
                       </button>
                   </div>
               </div>
-              <div className='px-5 flex flex-col items-center pb-40 relative justify-center'>
-                <figure className=' h-[19.44rem] w-[15.7rem] relative'>
+              <div className='md:px-0 md:pb-0 px-5 flex flex-col items-center pb-40 relative justify-center'>
+                <figure className=' md:w-[15rem] md:h-[20rem] md:mt-8  h-[19.44rem] w-[15.7rem] relative'>
                    
                 <svg className='w-full h-full' viewBox="0 0 249 311" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M249 141.364C249 219.82 195.88 293.188 124.5 311C53.12 293.188 0 219.82 0 141.364V56.5455L124.5 0L249 56.5455V141.364ZM124.5 282.727C176.375 268.591 221.333 205.543 221.333 144.474V74.9227L124.5 30.8173L27.6667 74.9227V144.474C27.6667 205.543 72.625 268.591 124.5 282.727ZM163.233 141.364V120.159C163.233 100.368 143.867 84.8182 124.5 84.8182C105.133 84.8182 85.7667 100.368 85.7667 120.159V141.364C77.4667 141.364 69.1667 149.845 69.1667 158.327V207.805C69.1667 217.7 77.4667 226.182 85.7667 226.182H161.85C171.533 226.182 179.833 217.7 179.833 209.218V159.741C179.833 149.845 171.533 141.364 163.233 141.364ZM145.25 141.364H103.75V120.159C103.75 108.85 113.433 101.782 124.5 101.782C135.567 101.782 145.25 108.85 145.25 120.159V141.364Z" fill="url(#paint0_linear_114_900)" fillOpacity="0.14"/><defs><linearGradient id="paint0_linear_114_900" x1="124.5" y1="0" x2="124.5" y2="311" gradientUnits="userSpaceOnUse"><stop stopColor="#903AFF"/><stop offset="1" stopColor="#FF26B9"/></linearGradient></defs></svg>
 
@@ -523,22 +524,24 @@ function App() {
             </div>
 
 
-            <div id='block10' className="flex flex-col md:flex-row gap-[3.83rem] pb-[3.314rem] border-b border-gray-500 justify-between items-center relative overflow-hidden w-full pt-[3.188rem] border-b-[#ffffff2f] px-16  ">
+            <div id='block10' className="flex bg-getlinklight2 flex-col md:gap-7 gap-[3.83rem] pb-[3.314rem] md:px-8 border-b border-gray-500 justify-stary items-center relative overflow-hidden w-full pt-[3.188rem] border-b-[#ffffff2f] px-16  ">
               
-              <div id='b7-left/top' className="relative flex justify-start items-start flex-col">
-                    <p className="text-xl relative text-center leading-7 p-0 inline-block font-bold">
-                        <span className=''>get<span className="text-getlink3">linked</span></span>
-                    </p>
-                    <p className="text-[0.82rem] relative text-start font-Montserrat font-normal mt-2 leading-[1.67rem]">
-                    Getlinked Tech Hackathon is a technology innovation program established by a group of organizations with the aim of showcasing young and talented individuals in the field of technology
-                    <img className="absolute w-[0.565rem] h-[0.625rem] top-10 -left-6" src="/white-mini-star.png" alt="white-mini-star"/>
-                    </p>
-                    <p className="text-xs relative text-start font-Montserrat leading-7 pt-10 p-0 inline-block font-normal">
-                        <span className=''>Terms of Use <span className="text-getlink3">  | </span>Privacy Policy</span>
-                    </p>
+              <div id='b7-left/top' className="relative flex justify-start md:justify-between md:gap-16 items-start md:flex-row flex-col">
+                  <div className='md:max-w-[28vw]' >
+                        <p className="md:text-base text-xl relative text-center leading-7 p-0 inline-block font-bold">
+                            <span className=''>get<span className="text-getlink3">linked</span></span>
+                        </p>
+                        <p className="md:text-07 md:leading-4 text-[0.82rem] relative text-start font-Montserrat font-normal mt-2 leading-[1.67rem]">
+                        Getlinked Tech Hackathon is a technology innovation program established by a group of organizations with the aim of showcasing young and talented individuals in the field of technology
+                        <img className="absolute w-[0.565rem] h-[0.625rem] top-10 -left-6" src="/white-mini-star.png" alt="white-mini-star"/>
+                        </p>
+                        <p className="md:text-07 text-xs relative text-start font-Montserrat leading-7 pt-10 p-0 inline-block font-normal">
+                            <span className=''>Terms of Use <span className="text-getlink3">  | </span>Privacy Policy</span>
+                        </p>
+                    </div>
 
-                    <div className='mt-7 font-Montserrat text-xs'>
-                      <p className='my-[0.15rem] text-sm pb-1 font-semibold relative text-getlink3'>Useful Links
+                    <div className='mt-7 md:mt-0 font-Montserrat md:text-07 text-xs'>
+                      <p className='my-[0.15rem] md:text-09 text-sm pb-1 font-semibold relative text-getlink3'>Useful Links
                       <img className="absolute w-[0.94rem] h-[1.13rem] -bottom-[5.188rem] -right-[2.815rem]" src="/gray-mini-star.png" alt="grey-mini-star"/>
                       </p>
                       <p className='mb-[0.68rem]'>Overview</p>
@@ -550,8 +553,8 @@ function App() {
                       </div>
                     </div>
 
-                    <div className='mt-[3.813rem] font-Montserrat text-xs relative'>
-                      <p className='my-[0.15rem] text-sm pb-1 font-semibold text-getlink3'>Contact Us</p>
+                    <div className='mt-[3.813rem] md:mt-0 md:text-07 font-Montserrat text-xs relative'>
+                      <p className='my-[0.15rem] md:text-09 text-sm pb-1 font-semibold text-getlink3'>Contact Us</p>
                       <div className='flex items-start mb-4 justify-start gap-2'>
                           <p className='relative top-1 text-xs'>{telephone}</p>
                           <p>+234  6707653444</p>
@@ -563,7 +566,7 @@ function App() {
                        <img className="absolute w-[0.44rem] h-[0.5rem] top-[3.5rem] -right-[6.189rem]" src="/white-mini-star.png" alt="white-mini-star"/>
                     </div>
               </div>
-              <p className='font-normal text-sm text-center font-Montserrat mb-3 relative '>All rights reserved. © getlinked Ltd.
+              <p className='font-normal text-sm md:text-xs text-center font-Montserrat mb-3 relative '>All rights reserved. © getlinked Ltd.
               <img className=" w-[0.44rem] -top-[1.625rem] left-12 absolute h-[0.5rem]" src="/violetstar.png"  />
               </p>
             </div>
@@ -592,7 +595,7 @@ const menu = <svg xmlns="http://www.w3.org/2000/svg" width="19" height="14" view
 </svg>
 
 
-const social_media = <svg xmlns="http://www.w3.org/2000/svg" width="129" height="22" viewBox="0 0 129 24" fill="none">
+const social_media = <svg xmlns="http://www.w3.org/2000/svg" className='md:w-16 md:h-3 w-32 h-5' width="129" height="22" viewBox="0 0 129 24" fill="none">
 <path d="M7.8 2H16.2C19.4 2 22 4.6 22 7.8V16.2C22 17.7383 21.3889 19.2135 20.3012 20.3012C19.2135 21.3889 17.7383 22 16.2 22H7.8C4.6 22 2 19.4 2 16.2V7.8C2 6.26174 2.61107 4.78649 3.69878 3.69878C4.78649 2.61107 6.26174 2 7.8 2ZM7.6 4C6.64522 4 5.72955 4.37928 5.05442 5.05442C4.37928 5.72955 4 6.64522 4 7.6V16.4C4 18.39 5.61 20 7.6 20H16.4C17.3548 20 18.2705 19.6207 18.9456 18.9456C19.6207 18.2705 20 17.3548 20 16.4V7.6C20 5.61 18.39 4 16.4 4H7.6ZM17.25 5.5C17.5815 5.5 17.8995 5.6317 18.1339 5.86612C18.3683 6.10054 18.5 6.41848 18.5 6.75C18.5 7.08152 18.3683 7.39946 18.1339 7.63388C17.8995 7.8683 17.5815 8 17.25 8C16.9185 8 16.6005 7.8683 16.3661 7.63388C16.1317 7.39946 16 7.08152 16 6.75C16 6.41848 16.1317 6.10054 16.3661 5.86612C16.6005 5.6317 16.9185 5.5 17.25 5.5ZM12 7C13.3261 7 14.5979 7.52678 15.5355 8.46447C16.4732 9.40215 17 10.6739 17 12C17 13.3261 16.4732 14.5979 15.5355 15.5355C14.5979 16.4732 13.3261 17 12 17C10.6739 17 9.40215 16.4732 8.46447 15.5355C7.52678 14.5979 7 13.3261 7 12C7 10.6739 7.52678 9.40215 8.46447 8.46447C9.40215 7.52678 10.6739 7 12 7ZM12 9C11.2044 9 10.4413 9.31607 9.87868 9.87868C9.31607 10.4413 9 11.2044 9 12C9 12.7956 9.31607 13.5587 9.87868 14.1213C10.4413 14.6839 11.2044 15 12 15C12.7956 15 13.5587 14.6839 14.1213 14.1213C14.6839 13.5587 15 12.7956 15 12C15 11.2044 14.6839 10.4413 14.1213 9.87868C13.5587 9.31607 12.7956 9 12 9Z" fill="white"/><path d="M49.0455 4H43L50.1336 13.3619L43.3886 21H45.6773L51.1942 14.7533L55.9545 21H62L54.5658 11.2437L60.9636 4H58.675L53.5053 9.8531L49.0455 4ZM56.8182 19.3L46.4545 5.7H48.1818L58.5455 19.3H56.8182Z" fill="white"/><path d="M85 14.5H87.5L88.5 10.5H85V8.5C85 7.47 85 6.5 87 6.5H88.5V3.14C88.174 3.097 86.943 3 85.643 3C82.928 3 81 4.657 81 7.7V10.5H78V14.5H81V23H85V14.5Z" fill="#F8F8F8"/><path d="M111.94 5.00002C111.94 5.53046 111.729 6.03906 111.354 6.41394C110.978 6.78883 110.469 6.99929 109.939 6.99902C109.409 6.99876 108.9 6.78779 108.525 6.41253C108.15 6.03727 107.94 5.52846 107.94 4.99802C107.94 4.46759 108.151 3.95899 108.526 3.5841C108.902 3.20922 109.411 2.99876 109.941 2.99902C110.471 2.99929 110.98 3.21026 111.355 3.58552C111.73 3.96078 111.94 4.46959 111.94 5.00002ZM112 8.48002H108V21H112V8.48002ZM118.32 8.48002H114.34V21H118.28V14.43C118.28 10.77 123.05 10.43 123.05 14.43V21H127V13.07C127 6.90002 119.94 7.13002 118.28 10.16L118.32 8.48002Z" fill="#F8F8F8"/>
 </svg>
 

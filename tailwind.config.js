@@ -16,6 +16,22 @@ export default {
         'gradient2':'#903AFF',
         line1:"rgba(255, 255, 255, 0.18);"
       },
+      fontSize:{
+        '01':'0.063rem',
+        '02':'0.13rem',
+        '03':'0.19rem',
+        '04':'0.25rem',
+        '05':'0.31rem',
+        '06':'0.38rem',
+        '07':'0.44rem',
+        '08':'0.5rem',
+        '09':'0.565rem',
+        '010':'0.625rem',
+        '011':'0.691rem',
+        '013':'0.81rem',
+        '014':'0.88rem',
+        '015':'0.94rem',
+      },
       fontFamily: {
        'Clash': ['ClashDisplay', 'serif'],
        'Montserrat': ['Montserrat', 'sans'],

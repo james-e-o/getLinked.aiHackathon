@@ -67,3 +67,18 @@ div#root {
     font-size: 100%;
   }
 }
+@media screen and (min-width:912px) {
+  html {
+    font-size: 110%;
+  }
+}
+@media screen and (min-width:1024px) {
+  html {
+    font-size: 120%;
+  }
+}
+@media screen and (min-width:1280px) {
+  html {
+    font-size: 140%;
+  }
+}
